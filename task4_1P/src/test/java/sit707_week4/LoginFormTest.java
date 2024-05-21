@@ -13,7 +13,7 @@ public class LoginFormTest
 	@Test
 	public void testStudentIdentity() {
 		String studentId = "s223302973";
-		Assert.assertNotNull("s223302973", studentId);
+		Assert.assertNull("s223302973", studentId);
 	}
 
 	@Test
