@@ -13,13 +13,13 @@ public class LoginFormTest
 	@Test
 	public void testStudentIdentity() {
 		String studentId = "s223302973";
-		Assert.assertNull("s223302973", studentId);
+		Assert.assertFalse("s223302973", studentId);
 	}
 
 	@Test
 	public void testStudentName() {
 		String studentName = "Raveel Kashif";
-		Assert.assertNull("Raveel Kashif", studentName);
+		Assert.assertFalse("Raveel Kashif", studentName);
 	}
 	
 // 	@Test
