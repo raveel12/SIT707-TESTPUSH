@@ -17,11 +17,11 @@ public class DateUtilTest {
 		Assert.assertNull("s223302973", studentId);
 	}
 
-	// @Test
-	// public void testStudentName() {
-	// 	String studentName = "Raveel Kashif";
-	// 	Assert.assertNull("Raveel Kashif", studentName);
-	// }
+	@Test
+	public void testStudentName() {
+		String studentName = "Raveel Kashif";
+		Assert.assertNull("Raveel Kashif", studentName);
+	}
 //
 //	@Test
 //	public void testMaxJanuary31ShouldIncrementToFebruary1() {
